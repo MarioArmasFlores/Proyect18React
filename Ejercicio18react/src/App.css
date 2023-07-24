@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+}
+
+img {
+  height: 500px;
+  width: 400px;
+}
+
+.beforePicture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  height: 600px;
+  width: 600px;
+  background-color: #7e7d7d60;
+}
+.alignLink {
+  width: 150px;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.alignLink:hover{
+  background-color: #cecece;
+}
+
+
+
+
+.buttonDelete {
+  height: 30px;
+  background-color: red;
+}
